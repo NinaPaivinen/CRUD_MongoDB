@@ -1,7 +1,7 @@
 // reoutes.js
 const express = require('express');
 const router = express.Router();
-const Car = require('./models/car');
+const Car = require('./models/cars');
 
 // Fetch all cars
 router.get("/cars", async (req, res) => {
